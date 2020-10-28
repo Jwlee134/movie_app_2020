@@ -29,6 +29,7 @@ class App extends React.Component {
       <section className="container">
         {isLoading ? (
           <div className="loader">
+            <div className="loader__circle"></div>
             <span className="loader__text">Loading...</span>
           </div>
         ) : (
